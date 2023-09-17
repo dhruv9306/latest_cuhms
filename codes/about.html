@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuHMS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <section class="about-header">
+        <label for="" class="icons">
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+            <i class='bx bx-window-close' onclick="hideMenu()"></i>
+
+        </label>
+
+        <nav>
+            <a href="index.html"><img src="images/logonew.jpeg"></a>
+            <div class="navlinks2" id="navlinks2">
+
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">HOSTELS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+        <h1>About us</h1>
+
+    </section>
+
+    <!-- about us content -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the India's best Hostel</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam cumque, laboriosam rem
+                    animi amet ratione id hic provident dicta voluptate quibusdam accusantium eveniet illum, harum ex
+                    vitae. Expedita eveniet quo autem. Minima sint hic, exercitationem voluptatem rerum temporibus
+                    numquam?</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE</a>
+
+
+            </div>
+            <div class="about-col">
+                <img src="images/about2.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Et delectus blanditiis quidem in tempore quasi
+            hic corporis mollitia eos laborum?</p>
+        <label for="" class="icons">
+            <i class='bx bxl-facebook-circle'></i>
+            <i class='bx bxl-instagram'></i>
+
+        </label>
+
+    </section>
+
+
+    <script>
+        var navlinks2 = document.getElementById("navlinks2");
+        function showMenu() {
+            navlinks2.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks2.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CuHMS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+    <section class="about-header">
+        <label for="" class="icons">
+            <i class='bx bx-menu' onclick="showMenu()"></i>
+            <i class='bx bx-window-close' onclick="hideMenu()"></i>
+
+        </label>
+
+        <nav>
+            <a href="index.html"><img src="images/logonew.jpeg"></a>
+            <div class="navlinks2" id="navlinks2">
+
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">HOSTELS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+        <h1>Contact Us</h1>
+
+    </section>
+
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3428.121589273772!2d76.5757597!3d30.7711667!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ffb140bd63e07%3A0x68591e334d17a988!2sChandigarh%20University!5e0!3m2!1sen!2sin!4v1694865831166!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span>
+                        <h4>NH5 road, gharuan</h4>
+                        <p>Mohali, Punjab</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>
+                        <h4>154246546</h4>
+                        <p>monday to saturday</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <span>
+                        <h4>info@cumail.in</h4>
+                        <p>email your query</p>
+                    </span>
+                </div>
+
+            </div>
+            <div class="contact-col">
+                <form action="form_handle.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name"required>
+                    <input type="email" name="email" placeholder="Enter email address"required>
+                    <input type="text" name="subject" placeholder="Enter Your Subject"required>
+                    <textarea rows="9" name="message" placeholder="Message"required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Et delectus blanditiis quidem in tempore quasi
+            hic corporis mollitia eos laborum?</p>
+        <label for="" class="icons">
+            <i class='bx bxl-facebook-circle'></i>
+            <i class='bx bxl-instagram'></i>
+
+        </label>
+
+    </section>
+
+
+    <script>
+        var navlinks2 = document.getElementById("navlinks2");
+        function showMenu() {
+            navlinks2.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks2.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
